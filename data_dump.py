@@ -10,6 +10,7 @@ database_name = "aps"
 collection_name = "sensor"
 
 
+
 if __name__ == "__main__":
     df = pd.read_csv(data_file_path)
     print(f'rows and columns: {df.shape}')
